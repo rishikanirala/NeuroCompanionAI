@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroCompanion AI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Navigation Bar -->
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <h4 class="text-center">NeuroCompanion AI</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Chat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reminders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Graphs and Reports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Community Connection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Notifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content Area -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Dashboard</h1>
+                    <div class="btn-group">
+                        <select id="language-select" class="form-control">
+                            <option value="en">English</option>
+                            <option value="es">Spanish</option>
+                            <option value="fr">French</option>
+                        </select>
+                        <button id="toggle-theme" class="btn btn-outline-secondary">Light/Dark Mode</button>
+                    </div>
+                </div>
+
+                <!-- User Profile Card -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">User Profile</h5>
+                        <p><strong>Full Name:</strong> John Doe</p>
+                        <p><strong>Gender:</strong> Male</p>
+                        <p><strong>Age:</strong> 65</p>
+                        <p><strong>Medical Problems:</strong> Hypertension</p>
+                        <p><strong>Contact Info:</strong> johndoe@example.com</p>
+                        <p><strong>Date of Birth:</strong> 1958-06-15</p>
+                        <p><strong>Location:</strong> New York, USA</p>
+                        <p><strong>Language Preference:</strong> English</p>
+                    </div>
+                </div>
+
+                <!-- Family Connection Card -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Family Connection</h5>
+                        <p><strong>Spouse:</strong> Jane Doe</p>
+                        <p><strong>Children:</strong> Anna Doe, Mike Doe</p>
+                        <p><strong>Contact:</strong> family@example.com</p>
+                    </div>
+                </div>
+
+                <!-- Settings Card -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Settings</h5>
+                        <p>Manage your preferences and settings here.</p>
+                        <button class="btn btn-primary">Update Settings</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
