@@ -1,0 +1,50 @@
+.body {
+    background-image: url('https://i.imgur.com/MGontdE.png'); 
+    background-size: cover; /* This makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-image:fixed ;
+    height: 100%; /* Makes the body take the full height of the viewport */
+    margin: 0;
+    background-color:bisque;
+}
+header{
+    font-size: 22px;
+    color:brown;
+    background-position:left;
+    text-align:left;
+    border-radius: 8px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+a{
+    font-size: small;
+    text-align: left;
+}
+.main{
+    background-color:rgb(240, 199, 149);
+    max-width:100%;
+    background-position: center;
+    align-content: center;
+    
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: 100vh;
+    background-position: center;
+    border-radius: 20px;
+    background-blend-mode:lighten;
+    
+}
+.centered {
+    font-size: 22px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(148, 136, 136);
+    b
+  }
