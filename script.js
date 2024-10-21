@@ -19,6 +19,23 @@ style.innerHTML = `
 .dark-mode .card {
     background-color: #495057;
     color: white;
+    box-shadow: 0px 0px 9px rgb(6, 20, 44);
 }
+.dark-mode .nav-link{
+    background-color: #495057;
+    padding: 10px;
+    border-radius: 15px ;
+    margin: 5px;
+    color: white;
+    box-shadow: 0px 0px 9px rgb(6, 20, 44);
+}
+
+
+.dark-mode .bg-light{
+    background-color: #343a40;
+}
+
+
 `;
+
 document.head.appendChild(style);
